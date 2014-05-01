@@ -1,0 +1,19 @@
+[Scope]
+DBusName=com.canonical.Unity.Scope.Notes.NixNote
+DBusPath=/com/canonical/unity/scope/notes/nixnote
+Icon=/usr/share/icons/unity-icon-theme/places/svg/group-notes.svg
+Keywords=nixnote;evernote;
+RequiredMetadata=
+OptionalMetadata=
+Loader=/usr/share/unity-scopes/nixnote/unity_nixnote_daemon.py
+QueryBinary=nixnote2
+Module=nixnote.unity_nixnote_daemon
+ModuleType=python3
+RemoteContent=false
+Type=notes
+Name=NixNote
+Description=NixNote notes.
+SearchHint=Search NixNote notes
+
+[Desktop Entry]
+X-Ubuntu-Gettext-Domain=unity-scope-nixnote

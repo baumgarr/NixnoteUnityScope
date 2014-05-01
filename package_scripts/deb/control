@@ -1,0 +1,11 @@
+Package: nixnote-unity-scope
+Version: __VERSION__
+Section: gnome
+Priority: extra    
+Architecture: all 
+Installed-Size: 40
+Depends: python3, gir1.2-dee-1.0, python3-gi, gir1.2-unity-5.0 (>= 7.0), unity-scopes-runner, gir1.2-glib-2.0, gir1.2-accounts-1.0, gir1.2-signon-1.0, gir1.2-gdata-0.0, nixnote2
+Maintainer: Randy Baumgarte <randy@fbn.cx>
+Description: NixNote scope for Unity.
+ NixNote scope for Unity to allow for searching of notes 
+ using "evernote:" or "nixnote:" keywords.
