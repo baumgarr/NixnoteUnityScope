@@ -7,7 +7,7 @@ This project is designed to give a Unity search interface into NixNote2.  The ge
 for you to be able to see your notes when searching through Unity's search bar.  This initial bulid
 has several restrictions.
 
-Thesse restrictions are:
+These restrictions are:
 - You must have NixNote2 beta 2 or later installed.
 - Only the last 10 notes will ever be presented in a search.  If more than 10 match a search, 
   the last 10 which have been updated most recently are returned.
